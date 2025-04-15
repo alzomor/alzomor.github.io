@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="600" viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Phone outline -->
+  <rect x="10" y="10" width="280" height="580" rx="30" ry="30" fill="#333" />
+  <rect x="20" y="20" width="260" height="560" rx="20" ry="20" fill="#fff" />
+  
+  <!-- Status bar -->
+  <rect x="20" y="20" width="260" height="30" fill="#3498db" />
+  <circle cx="40" cy="35" r="5" fill="#fff" />
+  <rect x="55" y="32" width="40" height="6" rx="3" ry="3" fill="#fff" />
+  <rect x="220" y="32" width="20" height="6" rx="3" ry="3" fill="#fff" />
+  <rect x="250" y="32" width="10" height="6" rx="3" ry="3" fill="#fff" />
+  
+  <!-- App header -->
+  <rect x="20" y="50" width="260" height="50" fill="#3498db" />
+  <text x="40" y="80" font-family="Arial" font-size="18" font-weight="bold" fill="#fff">SmartPark</text>
+  <circle cx="250" cy="75" r="15" fill="rgba(255,255,255,0.3)" />
+  <text x="250" y="80" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">⚙️</text>
+  
+  <!-- Map view -->
+  <rect x="20" y="100" width="260" height="350" fill="#ecf0f1" />
+  
+  <!-- Map elements -->
+  <rect x="40" y="150" width="220" height="20" fill="#bdc3c7" />
+  <rect x="40" y="220" width="220" height="20" fill="#bdc3c7" />
+  <rect x="40" y="290" width="220" height="20" fill="#bdc3c7" />
+  <rect x="40" y="360" width="220" height="20" fill="#bdc3c7" />
+  
+  <rect x="70" y="100" width="20" height="350" fill="#bdc3c7" />
+  <rect x="140" y="100" width="20" height="350" fill="#bdc3c7" />
+  <rect x="210" y="100" width="20" height="350" fill="#bdc3c7" />
+  
+  <!-- Parking locations -->
+  <circle cx="70" cy="150" r="15" fill="#3498db" />
+  <text x="70" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">P</text>
+  
+  <circle cx="140" cy="220" r="15" fill="#3498db" />
+  <text x="140" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">P</text>
+  
+  <circle cx="210" cy="290" r="15" fill="#3498db" />
+  <text x="210" y="295" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">P</text>
+  
+  <circle cx="70" cy="360" r="15" fill="#3498db" />
+  <text x="70" y="365" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">P</text>
+  
+  <!-- Current location pin -->
+  <circle cx="140" cy="290" r="12" fill="#e74c3c" />
+  <circle cx="140" cy="290" r="5" fill="#fff" />
+  
+  <!-- Current parking status -->
+  <rect x="40" y="120" width="220" height="40" rx="20" ry="20" fill="#fff" stroke="#bdc3c7" stroke-width="1" />
+  <text x="60" y="145" font-family="Arial" font-size="14" fill="#2c3e50">Current parking: Active</text>
+  <circle cx="240" cy="140" r="10" fill="#2ecc71" />
+  <text x="240" y="145" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">✓</text>
+  
+  <!-- Bottom panel -->
+  <rect x="20" y="450" width="260" height="130" rx="20" ry="20" fill="#fff" stroke="#bdc3c7" stroke-width="1" />
+  <text x="40" y="480" font-family="Arial" font-size="16" font-weight="bold" fill="#2c3e50">Nearby Parking</text>
+  
+  <!-- Parking list -->
+  <rect x="40" y="490" width="220" height="1" fill="#ecf0f1" />
+  
+  <text x="40" y="510" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50">Central Parking</text>
+  <text x="40" y="530" font-family="Arial" font-size="12" fill="#7f8c8d">0.2 miles away • $2.50/hr</text>
+  <rect x="210" y="510" width="50" height="25" rx="12.5" ry="12.5" fill="#3498db" />
+  <text x="235" y="525" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">Go</text>
+  
+  <rect x="40" y="540" width="220" height="1" fill="#ecf0f1" />
+  
+  <text x="40" y="560" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50">Market Street Garage</text>
+  <text x="40" y="580" font-family="Arial" font-size="12" fill="#7f8c8d">0.5 miles away • $1.75/hr</text>
+  <rect x="210" y="560" width="50" height="25" rx="12.5" ry="12.5" fill="#3498db" />
+  <text x="235" y="575" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">Go</text>
+</svg>

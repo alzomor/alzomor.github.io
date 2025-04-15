@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="500" viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#f8f9fa" />
+  
+  <!-- Smartphone outline -->
+  <rect x="150" y="50" width="300" height="400" rx="20" ry="20" fill="#fff" stroke="#333" stroke-width="10" />
+  
+  <!-- Screen -->
+  <rect x="170" y="70" width="260" height="360" rx="5" ry="5" fill="#ecf0f1" />
+  
+  <!-- Map interface -->
+  <rect x="170" y="70" width="260" height="360" fill="#e6e6e6" />
+  
+  <!-- Map roads -->
+  <rect x="200" y="120" width="200" height="20" fill="#bdc3c7" />
+  <rect x="200" y="200" width="200" height="20" fill="#bdc3c7" />
+  <rect x="200" y="280" width="200" height="20" fill="#bdc3c7" />
+  <rect x="200" y="360" width="200" height="20" fill="#bdc3c7" />
+  
+  <rect x="220" y="70" width="20" height="360" fill="#bdc3c7" />
+  <rect x="300" y="70" width="20" height="360" fill="#bdc3c7" />
+  <rect x="380" y="70" width="20" height="360" fill="#bdc3c7" />
+  
+  <!-- Parking locations -->
+  <circle cx="220" cy="120" r="15" fill="#3498db" />
+  <circle cx="300" cy="200" r="15" fill="#3498db" />
+  <circle cx="380" cy="280" r="15" fill="#3498db" />
+  <circle cx="220" cy="360" r="15" fill="#3498db" />
+  
+  <!-- Current location pin -->
+  <circle cx="300" cy="280" r="12" fill="#e74c3c" />
+  <circle cx="300" cy="280" r="5" fill="#fff" />
+  
+  <!-- App interface elements -->
+  <rect x="170" y="70" width="260" height="50" fill="#3498db" />
+  <text x="200" y="100" font-family="Arial" font-size="18" fill="white">SmartPark</text>
+  
+  <!-- Bottom navigation bar -->
+  <rect x="170" y="380" width="260" height="50" fill="#fff" />
+  
+  <!-- Navigation icons -->
+  <circle cx="220" cy="405" r="15" fill="#bdc3c7" />
+  <circle cx="300" cy="405" r="15" fill="#3498db" />
+  <circle cx="380" cy="405" r="15" fill="#bdc3c7" />
+  
+  <!-- Phone button -->
+  <circle cx="300" cy="450" r="15" fill="#ecf0f1" stroke="#333" stroke-width="2" />
+  
+  <!-- Decorative elements -->
+  <circle cx="500" cy="100" r="40" fill="#3498db" opacity="0.2" />
+  <circle cx="100" cy="400" r="60" fill="#2ecc71" opacity="0.2" />
+  <circle cx="500" cy="400" r="30" fill="#f39c12" opacity="0.2" />
+</svg>

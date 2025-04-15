@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#3498db" />
+  
+  <!-- Letter P shape (stylized as parking symbol) -->
+  <path d="M70 50 L70 150 L90 150 L90 110 L130 110 Q150 110 150 90 Q150 70 130 70 L70 70 L70 50 Z" fill="white" />
+  
+  <!-- Parking lines -->
+  <rect x="100" y="70" width="10" height="40" fill="#3498db" />
+  <rect x="120" y="70" width="10" height="40" fill="#3498db" />
+  
+  <!-- Car silhouette -->
+  <path d="M85 130 Q85 125 90 125 L110 125 Q115 125 115 130 L115 140 Q115 145 110 145 L90 145 Q85 145 85 140 Z" fill="#2ecc71" />
+  <circle cx="90" cy="145" r="5" fill="#333" />
+  <circle cx="110" cy="145" r="5" fill="#333" />
+</svg>

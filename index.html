@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPark - Intelligent Parking Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/images/logo.svg" alt="SmartPark Logo">
+                    <span>SmartPark</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#server-functionality">Analytics</a></li>
+                    <li><a href="#app">The App</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Pay for Parking with Ease</h1>
+                <p>SmartPark is a comprehensive parking management solution that helps you manage your vehicles and pay for parking—all from your smartphone. Avoid penalties with timely payments and notifications.</p>
+                <div class="cta-buttons">
+                    <a href="#app" class="btn btn-primary">Download App</a>
+                    <a href="#how-it-works" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero-image.svg" alt="SmartPark App on Phone">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Features</h2>
+                <p>Discover what makes SmartPark the perfect parking companion</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location Detection</h3>
+                    <p>Track your current location with GPS/GSM triangulation and view your parking history on interactive maps.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Vehicle Management</h3>
+                    <p>Register multiple license plates and select your preferred vehicle for quick parking sessions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Secure Payments</h3>
+                    <p>Pay for parking with multiple payment methods and receive digital receipts for all transactions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Time Management</h3>
+                    <p>Set parking duration, end sessions early, and get notified before your parking expires.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Notifications</h3>
+                    <p>Receive timely reminders about your parking session with customizable notification settings.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Personalized Settings</h3>
+                    <p>Customize your app experience with notification preferences and other settings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How SmartPark Works</h2>
+                <p>A complete parking management system for users and operators</p>
+            </div>
+            <div class="system-schematic">
+                <img src="assets/images/system-schematic-updated.svg" alt="SmartPark System Schematic">
+            </div>
+            <div class="user-stories">
+                <div class="story-section">
+                    <h3>For Users</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Park Your Vehicle</h3>
+                                <p>Park your vehicle in a designated parking area.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Select Vehicle</h3>
+                                <p>Choose from your registered license plates or add a new vehicle to the system.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Set Duration</h3>
+                                <p>Select how long you plan to park and see the estimated cost before confirming.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h3>Pay for Parking</h3>
+                                <p>Complete payment using your preferred method and receive a digital confirmation.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h3>Get Reminders</h3>
+                                <p>Receive notifications before your parking session expires with options to extend if needed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="story-section">
+                    <h3>For Parking Operators</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Scan License Plates</h3>
+                                <p>Operators use the companion app to scan vehicle license plates in parking areas.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Verify Payment Status</h3>
+                                <p>The system automatically checks if the vehicle owner has paid for parking.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Issue Penalties</h3>
+                                <p>If payment is not found, the system generates a penalty notice for the vehicle owner.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h3>Send Notifications</h3>
+                                <p>Vehicle owners receive immediate notification of penalties through the app.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Analytics Section -->
+    <section id="server-functionality" class="server-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Smart Data Analytics</h2>
+                <p>Turning parking data into actionable business insights</p>
+            </div>
+            <div class="server-features">
+                <div class="server-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Usage Patterns</h3>
+                    <p>Visualize parking usage patterns to identify peak hours and optimize resource allocation.</p>
+                </div>
+                
+                <div class="server-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Revenue Analysis</h3>
+                    <p>Track revenue streams including regular parking fees and penalties to maximize profitability.</p>
+                </div>
+                
+                <div class="server-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Location Insights</h3>
+                    <p>Compare performance across different parking locations to guide expansion and investment decisions.</p>
+                </div>
+                
+                <div class="server-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Compliance Monitoring</h3>
+                    <p>Monitor payment compliance rates and identify trends to improve enforcement strategies.</p>
+                </div>
+            </div>
+            
+            <div class="analytics-dashboard">
+                <div class="analytics-info">
+                    <h3>Business Intelligence Dashboard</h3>
+                    <p>Our intuitive dashboard transforms complex parking data into clear, actionable insights for better decision-making.</p>
+                    <ul class="analytics-list">
+                        <li><i class="fas fa-check-circle"></i> Daily and monthly revenue breakdowns with visual trends</li>
+                        <li><i class="fas fa-check-circle"></i> Payment compliance rates by location and time period</li>
+                        <li><i class="fas fa-check-circle"></i> Penalty issuance patterns and collection success rates</li>
+                        <li><i class="fas fa-check-circle"></i> Peak usage hours to guide staffing and enforcement</li>
+                        <li><i class="fas fa-check-circle"></i> Customizable reports for stakeholders and management</li>
+                    </ul>
+                </div>
+                <div class="analytics-image">
+                    <img src="assets/images/analytics-dashboard.svg" alt="SmartPark Analytics Dashboard">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Section -->
+    <section id="app" class="app-section">
+        <div class="container">
+            <div class="app-content">
+                <div class="app-info">
+                    <h2>Download the SmartPark Apps</h2>
+                    <p>Get started with SmartPark today for hassle-free parking management. Apps available for both drivers and parking operators on iOS and Android devices.</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <span>
+                                <small>Download on the</small>
+                                App Store
+                            </span>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <span>
+                                <small>GET IT ON</small>
+                                Google Play
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="app-screenshots">
+                    <img src="assets/images/app-screenshot1.svg" alt="SmartPark App Screenshot - Map View">
+                    <img src="assets/images/app-screenshot2.svg" alt="SmartPark App Screenshot - Payment">
+                    <img src="assets/images/operator-app.svg" alt="SmartPark Operator App Screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Users Say</h2>
+                <p>Hear from people who use SmartPark every day</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"SmartPark has completely changed how I park in the city. No more searching for meters or worrying about tickets. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/user1.svg" alt="User Avatar">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Daily Commuter</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The notification feature is a lifesaver! I never have to worry about my parking expiring anymore. The app is intuitive and easy to use."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/user2.svg" alt="User Avatar">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Business Professional</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Being able to manage multiple vehicles for my family in one app is incredibly convenient. The payment process is smooth and secure."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/user3.svg" alt="User Avatar">
+                        <div class="author-info">
+                            <h4>Emma Rodriguez</h4>
+                            <p>Family User</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Have questions or feedback? We'd love to hear from you!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>design@ic-valley.tech</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+1 (845) 798-6772</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Calgary - Canada</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.svg" alt="SmartPark Logo">
+                    <span>SmartPark</span>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Connect</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="newsletter">
+                            <h4>Subscribe to our newsletter</h4>
+                            <div class="newsletter-form">
+                                <input type="email" placeholder="Your email address">
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SmartPark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
